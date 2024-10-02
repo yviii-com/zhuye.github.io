@@ -14,7 +14,7 @@ body {
 	padding: 0px;  
 }  
 .btns {
-    display: inline-block;
+    isplay: inline-block;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -29,7 +29,7 @@ body {
     border-radius: 0.25rem;
     border-radius: 0;
     margin: 20px 0;
-    width:50%;
+    width: 50%;
 }
 
 .login-qq{
@@ -37,20 +37,10 @@ body {
     background: #009ADD;
     border-color: #009ADD;
 }
-.login-qq a{
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-}
 .login-wx{
     color: #fff;
     background: #10B65C;
     border-color :#10B65C;
-}
-.login-wx a{
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
 }
 .login-qq:hover {
     color: #fff;
@@ -124,8 +114,8 @@ h4 {
     background-color: #f1f1f1;
 }
 .card-logo {
-    width: 48px;
-    height: 48px;
+    width: 80px;
+    height: 80px;
 }
 .container {
     position: relative;
@@ -211,7 +201,6 @@ strike {
 }
 
 .social a {
-        color: #948C6E;
 text-decoration:none;
 }
 
@@ -236,7 +225,7 @@ text-decoration:none;
 .photo-bg {
 
     background-image: url(../img/back.png);
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px 0 0 20px;
@@ -338,20 +327,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
 .smallscreend{
-display:none;
-}
+display:none;}
 
-.social {
- display: flex;
- align-items: center;
- justify-content: center;
-}
-.social li {
-    list-style: none;
-    float: left;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 }
