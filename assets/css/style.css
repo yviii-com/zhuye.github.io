@@ -224,7 +224,7 @@ text-decoration:none;
 
 .photo-bg {
 
-    background-image: url(../img/back.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/yviii-com/zhuye.github.io@main/assets/img/back.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
